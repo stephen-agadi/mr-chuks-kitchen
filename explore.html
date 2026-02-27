@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <!-- nav links -->
+    <nav class="navbar">
+        <div class="logo">
+            <p>Chuks Kitchen</p>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="order.html"> My orders</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+        <div class="auth">
+            <a href="login.html" class="login-link">Login</a>
+        </div>
+         <!-- Hamburger -->
+         <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+    </nav>
+
+    <!-- home page image section-->
+    <section class="hero-explore">
+        <div class="container-image-explore">
+           <h2>Chuks Kitchen</h2>
+   
+           <p>
+            Chuks  Kitchen Nigerian Home Cooking 4.8  (1.2k)
+        </p>
+           
+        </div>
+        
+       </section>
+
+
+        <!--menu container -->
+      
+        <div class="menu-container">
+            <div class="menu-header" onclick="toggleDropdown()">
+                Menu Categories
+                <span id="arrow">&#9662</span>
+            </div>
+            
+            <ul class="menu-list" id="menuList">
+                <li class="active">Popular</li>
+                <li>Jollof Rice & Entries</li>
+                <li>Swallow & Soups</li>
+                <li>Grills & Sides</li>
+                <li>Beverages</li>
+                <li>Deserts</li>
+            </ul>
+
+        </div>
+
+
+        <!-- Explore items -->
+        <section class="menu-items">
+            <section class="categories-explore">
+            <h2>Popular</h2>
+
+            <div class="category-grids">
+
+                <div class="card1-explore">
+                    <img src="images/chef.1.png" alt="Tilapia">
+                    <h3>Spicy Tilapia Pepper Soup</h3>
+                    <p class="card-text-explore">A comforting and spicy soup with tender<br>tilapia fish, a true Nigerian delicacy.</p>
+                           <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/img.semo.png" alt="Jollof Rice & Fried ">
+                    <h3>Eba & Egusi Soup (Goat Meat) </h3>
+                    <p class="card-text-explore">Hearty Egusi soup with tender goat meat, 
+                        served<br>with soft Eba.</p>
+                             <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/semo.img.lea.png" alt="Jollof Rice & Fried Chicken">
+                    <h3>Pounded Yam & Edikaikong</h3>
+                    <p class="card-text-explore">Traditional pounded yam with rich, 
+                        leafy <br> Edikaikong soup.</p>
+                        <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+                
+                <div class="card1-explore">
+                    <img src="images/peppered.snail.png" alt="Jollof Rice & Smoked Chicken">
+                    <h3>Peppered Snail</h3>
+                    <p class="card-text-explore">Spicy and savory peppered snail, 
+                        perfect as a <br> starter.</p>
+                           <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/img.grilled.png" alt="Jollof Rice & Fried Chicken">
+                    <h3>Grilled Tilapia Fish</h3>
+                    <p class="card-text-explore">Whole grilled tilapia seasoned with
+                         our special <br> spices.</p>
+                            <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/p.1.png" alt="Egusi Soup & Pounded Yam">
+                    <h3>Jollof Rice & Fried Chicken</h3>
+                    <p class="card-text-explore">Our signature Jollof rice, 
+                        served with crispy fried chicken and plantain.</p>
+                         <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Jollof Rice Entries -->
+         <section class="categories-explore">
+            <h2>Jollof Rice & Entries</h2>
+
+            <div class="category-grids">
+
+                <div class="card1-explore">
+                    <img src="images/img.2 chic.png" alt="Tilapia">
+                    <h3>Jollof Rice & Smoked Fish</h3>
+                    <p class="card-text-explore">Flavorful jollof rice served with perfectly smoked<br>fish.</p>
+                           <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/p.1.png" alt="Jollof Rice & Fried ">
+                    <h3>Party Jollof Rice (Veg)</h3>
+                    <p class="card-text-explore">Vegetarian party jollof, full of rich <br> flavors.</p>
+                             <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/p.1.png" alt="Jollof Rice & Fried Chicken">
+                    <h3>Party Jollof Rice (Veg)</h3>
+                    <p class="card-text-explore">Vegetarian party jollof, full of rich <br> flavors.</p>
+                        <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+            </section>
+
+
+
+            <!-- Swallow And Soups -->
+         <section class="categories-explore">
+            <h2>Swallow & Soups </h2>
+
+            <div class="category-grids">
+
+                <div class="card1-explore">
+                    <img src="images/img.ama.png" alt="Tilapia">
+                    <h3>Spicy Tilapia Pepper Soup</h3>
+                    <p class="card-text-explore">A comforting and spicy soup with tender<br>tilapia fish, a true Nigerian delicacy.</p>
+                           <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/img.okro.png" alt="Jollof Rice & Fried ">
+                    <h3>Eba & Egusi Soup (Goat Meat) </h3>
+                    <p class="card-text-explore">Hearty Egusi soup with tender goat meat, 
+                        served<br>with soft Eba.</p>
+                             <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+
+                <div class="card1-explore">
+                    <img src="images/img.okro.png" alt="Jollof Rice & Fried Chicken">
+                    <h3>Pounded Yam & Edikaikong</h3>
+                    <p class="card-text-explore">Traditional pounded yam with rich, 
+                        leafy <br> Edikaikong soup.</p>
+                        <div class="price-footer">
+                               <div class="price">#3500</div>
+                    <button class="price-btn-explore">+</button>
+                        </div>
+                </div>
+            </section>
+
+            <section class="before-footer">
+                
+            </section>
+
+
+                   
+
+              <!-- footer section -->
+
+         <section class="footer">
+            <div class="footer-details">
+                <div class="logo-footer">
+                    <p>Chuks Kitchen</p>
+                    <div class="footer-text">
+                        Bringing the authentic<br> 
+                        flavors of 
+                        Nigerian <br>
+                        home cooking to your<br>table,
+                         with passion 
+                        <br>and care.
+                    </div>
+                </div>
+                <div class="quick-links">
+                    <li>
+                        Quick Links
+                        <p class="list-quicklinks">
+                            <li><a href="index.html">Home</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="explore.html">Explore</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="order.html"> My orders</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="account.html">Account</a></li>
+                        </p>
+                    </li>
+                </div>
+                <div class="contact-quicklinks">
+                    <li>
+                        Contact Us
+                    </li>
+                    <p class="con-quicklinks">
+                        +234 801 234 5678
+                    </p>
+                    <p class="con-quicklinks">
+                        hello@chukskitchen.com
+                    </p>
+                    <p class="con-quicklinks">
+                        123 Taste Blvd, Lagos, Nigeriat
+                    </p>
+                </div>
+                <div class="social-link">
+                    <p class="social-links">
+                        Facebook
+                    </p>
+                    <p class="social-links">
+                        Twitter
+                    </p>
+                    <p class="social-links">
+                        LinkedIn
+                    </p>
+                    <p class="social-links">
+                        Instagram
+                    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2020 Lift Media. All rights reserved.</p>
+            </div>
+          <a href="#" class="back-to-top">&#8593;</a>
+         </section>
+        
+         <script src="chuks.js"></script>
+
+
+</body>
+</html>

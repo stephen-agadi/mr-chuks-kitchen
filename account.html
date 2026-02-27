@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My account</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+     <!-- nav links -->
+    <nav class="navbar">
+        <div class="logo">
+            <p>Chuks Kitchen</p>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="order.html"> My orders</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+        <div class="auth">
+            <a href="login.html" class="login-link">Login</a>
+        </div>
+        
+        
+        <!-- Hamburger -->
+         <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         
+    </nav>
+
+
+    <div class="account-container">
+        <h1>My Account</h1>
+
+        <!-- profile section -->
+         <div class="card-acct">
+            <h2>Profile Details</h2>
+            <p><strong>Name:</strong> Stephen Ife</p>
+            <p><strong>Email:</strong> agadistephen20@gmail.com</p>
+            <p><strong>Name:</strong> +234 9167 - 270 - 0808</p>
+            <button class="btn-acct">Edit Profile</button>
+         </div>
+
+         <!-- Order History -->
+          <div class="card-acct">
+            <h2>Order History</h2>
+
+            <div class="order-acct">
+                <p><strong>Orde #1021</strong></p>
+                <p>Jollof Rice & Chicken</p>
+                <p>#3,200 - Delivered</p>
+            </div>
+
+             <div class="order-acct">
+                <p><strong>Orde #1018</strong></p>
+                <p>Eba & Egusi</p>
+                <p>#5,200 - Delivered</p>
+            </div>
+
+          </div>
+
+          <!-- Saved Address -->
+           <div class="card-acct">
+            <h2>Saved Address</h2>
+            <p>12, Owolabi Shokale,Aga , Lagos</p>
+            <button class="btn-acct">Edit Address</button>
+           </div>
+
+           <!-- Logout -->
+            <div class="logout-acct">
+                <button class="logout-acctbtn">Logout</button>
+            </div>
+    </div>
+
+
+     <!-- footer section -->
+
+         <section class="footer">
+            <div class="footer-details">
+                <div class="logo-footer">
+                    <p>Chuks Kitchen</p>
+                    <div class="footer-text">
+                        Bringing the authentic<br> 
+                        flavors of 
+                        Nigerian <br>
+                        home cooking to your<br>table,
+                         with passion 
+                        <br>and care.
+                    </div>
+                </div>
+                <div class="quick-links">
+                    <li>
+                        Quick Links
+                        <p class="list-quicklinks">
+                            <li><a href="index.html">Home</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="explore.html">Explore</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="order.html"> My orders</a></li>
+                        </p>
+                        <p class="list-quicklinks">
+                            <li><a href="account.html">Account</a></li>
+                        </p>
+                    </li>
+                </div>
+                <div class="contact-quicklinks">
+                    <li>
+                        Contact Us
+                    </li>
+                    <p class="con-quicklinks">
+                        +234 801 234 5678
+                    </p>
+                    <p class="con-quicklinks">
+                        hello@chukskitchen.com
+                    </p>
+                    <p class="con-quicklinks">
+                        123 Taste Blvd, Lagos, Nigeriat
+                    </p>
+                </div>
+                <div class="social-link">
+                    <p class="social-links">
+                        Facebook
+                    </p>
+                    <p class="social-links">
+                        Twitter
+                    </p>
+                    <p class="social-links">
+                        LinkedIn
+                    </p>
+                    <p class="social-links">
+                        Instagram
+                    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2020 Lift Media. All rights reserved.</p>
+            </div>
+            <a href="#" class="back-to-top">&#8593;</a>
+         </section>
+        
+         <script src="chuks.js"></script>
+
+
+</body>
+</html>
